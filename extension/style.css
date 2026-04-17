@@ -1170,3 +1170,17 @@ body.no-entrance-anim .deferred-column .section-header {
   opacity: 0.6;
   flex-shrink: 0;
 }
+
+/* ---- Window badge on tab chips ---- */
+.chip-window-badge {
+  font-size: 9px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--accent-slate);
+  background: rgba(90, 107, 122, 0.1);
+  padding: 1px 6px;
+  border-radius: 3px;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
