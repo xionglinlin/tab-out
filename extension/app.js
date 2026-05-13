@@ -19,7 +19,7 @@ function applyThemeMode(mode) {
     window.matchMedia('(prefers-color-scheme: dark)').matches;
   const isDark = mode === 'dark' || (mode === 'system' && prefersDark);
   if (isDark) root.setAttribute('data-theme', 'dark');
-  else        root.removeAttribute('data-theme');
+  else        root.setAttribute('data-theme', 'light');
   root.setAttribute('data-mode', mode);
 }
 

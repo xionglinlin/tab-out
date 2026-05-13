@@ -14,7 +14,7 @@
       window.matchMedia('(prefers-color-scheme: dark)').matches;
     var isDark = mode === 'dark' || (mode === 'system' && prefersDark);
     if (isDark) document.documentElement.setAttribute('data-theme', 'dark');
-    else        document.documentElement.removeAttribute('data-theme');
+    else        document.documentElement.setAttribute('data-theme', 'light');
     document.documentElement.setAttribute('data-mode', mode);
   }
 
